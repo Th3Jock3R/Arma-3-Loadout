@@ -1,0 +1,7 @@
+respawn = "BASE";
+
+#include "config\Master.hpp"
+
+class cfgFunctions{
+    #include "Functions.hpp"
+};
