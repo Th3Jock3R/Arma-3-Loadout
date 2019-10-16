@@ -96,7 +96,7 @@ class Leskovets {
 			curentSRChanle = 1;
 		}
 		
-		class Cerberus : DefaultGroup {
+		class Cerberus: DefaultGroup {
 			class Soldier: DefaultSoldier {};
 			
 			srFrequencys[] = {
@@ -271,7 +271,7 @@ class Leskovets {
 			}
 		}
 		
-		class Cerberus_1 : Cerberus {
+		class Cerberus_1: Cerberus {
 			srFrequencys[] = {
 				{"51.9", 8},
 				{"51", 1},
@@ -279,7 +279,7 @@ class Leskovets {
 			};
 		}
 		
-		class Cerberus_2 : Cerberus {
+		class Cerberus_2: Cerberus {
 			srFrequencys[] = {
 				{"51.9", 8},
 				{"51", 1},
@@ -287,7 +287,7 @@ class Leskovets {
 			};
 		}
 		
-		class Gorgon : Cerberus {
+		class Gorgon: Cerberus {
 			srFrequencys[] = {
 				{"52", 8},
 				{"52.1", 1},
