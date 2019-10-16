@@ -130,7 +130,6 @@ player addWeapon getText(missionConfigFile >> mapConfig >> "UnitsConfig" >> _gro
 
 // TFAR set Frequencys
 sleep 15;
-
 {
 	[(call TFAR_fnc_activeSwRadio), (_x select 1), (_x select 0)] call TFAR_fnc_setChannelFrequency;
 } forEach getArray(missionConfigFile >> mapConfig >> "UnitsConfig" >> _groupId >> "srFrequencys");
