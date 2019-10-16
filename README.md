@@ -4,6 +4,7 @@
 - [ArmA 3](https://store.steampowered.com/app/107410/Arma_3/)
 - [CBA_A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997) [[Github](https://github.com/CBATeam/CBA_A3)]
 - [TFAR](http://radio.task-force.ru/en/) [[Github](https://github.com/michail-nikolaev/task-force-arma-3-radio/releases/tag/1.0-PreRelease)]
+- [ACE3](https://steamcommunity.com/workshop/filedetails/?id=463939057) [[Github](https://github.com/acemod/ACE3)]
 
 **Install**
 1. Download and put the files in the Mission folder.
