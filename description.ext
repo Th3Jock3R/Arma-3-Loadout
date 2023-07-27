@@ -5,3 +5,34 @@ respawn = "BASE";
 class cfgFunctions{
     #include "Functions.hpp"
 };
+
+
+class Params
+{
+	class Faction
+	{
+		title = "Night Equipment"; // Param name visible in the list
+		values[] = {-1,0,1,2}; // Values; must be integers; has to have the same number of elements as 'texts'
+		texts[] = {"Auto 17-5","Off","Always","Allways in Inventory"}; // Description of each selectable item
+		default = -1; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	};
+	
+	class Radio
+	{
+		title = "Temspeak Connection"; // Param name visible in the list
+		values[] = {-1,0,1}; // Values; must be integers; has to have the same number of elements as 'texts'
+		texts[] = {"ACRE","Off","TFAR"}; // Description of each selectable item
+		default = -1; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	};
+	
+	class slungHeadger
+	{
+		title = "Switch Start Headgear"; // Param name visible in the list
+		values[] = {0,1}; // Values; must be integers; has to have the same number of elements as 'texts'
+		texts[] = {"Helmet","Beret"}; // Description of each selectable item
+		default = 0; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	};
+};

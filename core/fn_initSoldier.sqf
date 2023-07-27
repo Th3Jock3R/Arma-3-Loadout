@@ -26,7 +26,7 @@ waitUntil {!isNil "soldierLoadout"};
 waitUntil {!isNil "CRE_ignoreSoldierLoadout"};
 waitUntil {!isNil "CRE_wPlayers"};
 _isAcre = missionNamespace getVariable ["CRE_isAcre", false];
-_slungHeadger = missionNamespace getVariable ["CRE_slungHeadger", false];
+_slungHeadgear = missionNamespace getVariable ["CRE_slungHeadgear", false];
 
 
 if (isNil "CRE_cfgGroups") then {
@@ -340,7 +340,7 @@ if (_isAcre < 0) then {
 //Headger add Pusible as uniform item
 _headgear = 		selectRandom (selectRandom (getArray(missionConfigFile >> mapConfig >> "UnitsConfig" >> _groupId >> _loadout >> "headgears")));
 _headgearsParade =  getArray(missionConfigFile >> mapConfig >> "UnitsConfig" >> _groupId >> _loadout >> "headgearsParade");
-if (_slungHeadger) then {
+if (_slungHeadgear) then {
     if (count _headgearsParade != 0) then {
         player addHeadgear selectRandom (selectRandom (_headgearsParade));
     };
