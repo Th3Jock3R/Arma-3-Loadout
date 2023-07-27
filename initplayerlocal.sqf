@@ -1,2 +1,2 @@
 waitUntil {!isNil "addNVision"};
-[addNVision] call TJR_fnc_initSoldier;
+[(missionNamespace getVariable ["addNVision", -1])] call TJR_fnc_initSoldier;
